@@ -51,7 +51,7 @@ const Home = () => {
             <th>Latitude</th>
             <th>Longitude</th>
             <th>Severity</th>
-            <th>Crack Depth (mm)</th>
+            <th>Crack Depth (cm)</th>
             <th>Status</th>
             <th>Actions</th>
           </tr>
