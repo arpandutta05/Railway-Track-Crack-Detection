@@ -1,0 +1,79 @@
+.dashboard h1 {
+    margin-bottom: 6px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #2b2d42;
+  }
+  
+  .subtext {
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  
+  
+  h2 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    color: #2b2d42;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  th, td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #f1f1f1;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f7fa;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #fafbfc;
+  }
+  
+  .severity.high {
+    color: #d32f2f;
+    font-weight: bold;
+  }
+  
+  .severity.mild {
+    color: #f57c00;
+    font-weight: bold;
+  }
+  
+  .status.pending {
+    color: #f57c00;
+  }
+  
+  .status.reviewed {
+    color: #1976d2;
+  }
+  
+  .status.resolved {
+    color: #388e3c;
+  }
+  
+  .action-link {
+    background: none;
+    border: none;
+    color: #6a11cb;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: color 0.3s, text-shadow 0.3s;
+  }
+  
+  .action-link:hover {
+    color: #2575fc;
+    text-shadow: 0 0 5px rgba(101, 154, 255, 0.4);
+  }
+  
